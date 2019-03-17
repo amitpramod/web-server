@@ -1,0 +1,8 @@
+body{
+    font-family: Arial;
+}
+
+div, section, span, header, footer{
+    padding: 10px;
+    margin: 10px;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>webserver</title>
+                <link rel="stylesheet" href="/css/index.css">
+    </head>
+    <body>
+        {{>header}}
+        <h1>serving from static file</h1>
+
+        <form>
+            <input type="text" placeholder="location">
+            <input type="submit">
+        </form>
+
+        <div class="weather-report"></div>
+
+        {{>footer}}
+        <script type="text/javascript" src="/js/app.js"></script>
+    </body>
+</html>
